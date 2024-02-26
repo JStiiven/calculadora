@@ -26,7 +26,10 @@ function factorial(num1) {
 function exponente(num1, num2) {
     return num1 ** num2
 }
-  
+
+function raizCuadrada(num1) {
+    return Math.sqrt(num1)
+}
   // Función principal del programa
   function calculadora() {
     var opcion = prompt(
