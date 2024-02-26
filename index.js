@@ -22,6 +22,10 @@ function factorial(num1) {
     }
     return num2
 }
+
+function exponente(num1, num2) {
+    return num1 ** num2
+}
   
   // Función principal del programa
   function calculadora() {
@@ -31,7 +35,7 @@ function factorial(num1) {
     var num1 = parseFloat(prompt("Ingrese el primer número:"));
     var num2, resultado;
   
-    if (opcion !== "5" && opcion !== "7") {
+    if (opcion !== "5" && opcion !== "6" && opcion !== "7") {
       num2 = parseFloat(prompt("Ingrese el segundo número:"));
     }
   
